@@ -47,7 +47,16 @@ void DataTransformer<Dtype>::Transform(const Datum& datum,
   const int datum_width = datum.width();
 
   const int crop_size = param_.crop_size();
-  const Dtype scale = param_.scale();
+
+  Dtype scale = param_.scale();
+  if (param_.random_scale()) {
+    float mult = (Rand(2) && 1) / 1.0;
+    int upper = static_cast<int>(1000 * param_.scale());
+    upper = upper != 0 ? upper : 1;
+    scale = mult + (-1 + 2*mult )*(1.0 - Rand(upper) / 1000.0f);
+  }
+
+
   const bool do_mirror = param_.mirror() && Rand(2);
   const bool has_mean_file = param_.has_mean_file();
   const bool has_uint8 = data.size() > 0;
@@ -243,7 +252,14 @@ void DataTransformer<Dtype>::Transform(const cv::Mat& cv_img,
 
   CHECK(cv_img.depth() == CV_8U) << "Image data type must be unsigned byte";
 
-  const Dtype scale = param_.scale();
+  Dtype scale = param_.scale();
+  if (param_.random_scale()) {
+    float mult = (Rand(2) && 1) / 1.0;
+    int upper = static_cast<int>(1000 * param_.scale());
+    upper = upper != 0 ? upper : 1;
+    scale = mult + (-1 + 2*mult )*(1.0 - Rand(upper) / 1000.0f);
+  }
+
   const bool do_mirror = param_.mirror() && Rand(2);
   const bool has_mean_file = param_.has_mean_file();
   const bool has_mean_values = mean_values_.size() > 0;
@@ -273,6 +289,16 @@ void DataTransformer<Dtype>::Transform(const cv::Mat& cv_img,
   int h_off = 0;
   int w_off = 0;
   cv::Mat cv_cropped_img = cv_img;
+
+  if (param_.slln()) {
+    float illum = Rand(2000) / 1000.0f;
+    int upper = static_cast<int>(100 * illum);
+    upper = upper != 0 ? upper : 1;
+    float noise = Rand(upper) / 1000.0f;
+    slln.apply(cv_img,cv_cropped_img, illum,noise);
+    scale = 1.0f;
+  }
+
   if (crop_size) {
     CHECK_EQ(crop_size, height);
     CHECK_EQ(crop_size, width);
@@ -356,8 +382,14 @@ void DataTransformer<Dtype>::Transform(Blob<Dtype>* input_blob,
   CHECK_GE(input_height, height);
   CHECK_GE(input_width, width);
 
+  Dtype scale = param_.scale();
+  if (param_.random_scale()) {
+    float mult = (Rand(2) && 1) / 1.0;
+    int upper = static_cast<int>(1000 * param_.scale());
+    upper = upper != 0 ? upper : 1;
+    scale = mult + (-1 + 2*mult )*(1.0 - Rand(upper) / 1000.0f);
+  }
 
-  const Dtype scale = param_.scale();
   const bool do_mirror = param_.mirror() && Rand(2);
   const bool has_mean_file = param_.has_mean_file();
   const bool has_mean_values = mean_values_.size() > 0;
@@ -522,7 +554,7 @@ vector<int> DataTransformer<Dtype>::InferBlobShape(
 template <typename Dtype>
 void DataTransformer<Dtype>::InitRand() {
   const bool needs_rand = param_.mirror() ||
-      (phase_ == TRAIN && param_.crop_size());
+      (phase_ == TRAIN && param_.crop_size()) || param_.random_scale() || param_.slln();
   if (needs_rand) {
     const unsigned int rng_seed = caffe_rng_rand();
     rng_.reset(new Caffe::RNG(rng_seed));

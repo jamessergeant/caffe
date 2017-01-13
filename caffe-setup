@@ -1,0 +1,31 @@
+#!/bin/bash -l
+#PBS -N caffe-setup
+#PBS -l walltime=1:00:00
+#PBS -l mem=10gb
+#PBS -l ngpus=1
+#PBS -l ncpus=8
+
+module load caffe
+module unload caffe
+module load matlab/2016b
+nvidia-smi
+GPU_ID=$(nvidia-smi | awk '{ if(NR==19) if($2>0) print 0; else print 1 }')
+echo "Using gpu: $GPU_ID"
+export CUDA_VISIBLE_DEVICES=$GPU_ID
+
+export CAFFE_ROOT=~/caffe
+export LD_LIBRARY_PATH=$CAFFE_ROOT/build/lib:$LD_LIBRARY_PATH
+
+### INSTALL
+cd $CAFFE_ROOT
+make clean
+make -j8
+make test -j8
+make runtest -j8
+make pycaffe
+make matcaffe
+
+# ### TEST INSTALL
+# ./data/mnist/get_mnist.sh
+# ./examples/mnist/create_mnist.sh
+# ./examples/mnist/train_lenet.sh

@@ -113,6 +113,7 @@ class Transformer:
         self.raw_scale = {}
         self.mean = {}
         self.input_scale = {}
+        self.random_scale = {}
 
     def __check_input(self, in_):
         if in_ not in self.inputs:
@@ -145,6 +146,7 @@ class Transformer:
         channel_swap = self.channel_swap.get(in_)
         raw_scale = self.raw_scale.get(in_)
         mean = self.mean.get(in_)
+        random = self.random_scale.get(in_)
         input_scale = self.input_scale.get(in_)
         in_dims = self.inputs[in_][2:]
         if caffe_in.shape[:2] != in_dims:
@@ -154,7 +156,13 @@ class Transformer:
         if channel_swap is not None:
             caffe_in = caffe_in[channel_swap, :, :]
         if raw_scale is not None:
-            caffe_in *= raw_scale
+            if random_scale is not None:
+                if np.random.uniform(0,1,1)[0] > 0.5
+                    caffe_in *= np.random.uniform(raw_scale,1,1)[0]
+                else
+                    caffe_in *= 1 + np.random.uniform(raw_scale,1,1)[0]
+            else
+                caffe_in *= raw_scale
         if mean is not None:
             caffe_in -= mean
         if input_scale is not None:
@@ -232,6 +240,21 @@ class Transformer:
         """
         self.__check_input(in_)
         self.raw_scale[in_] = scale
+
+    def set_random_scale(self, in_, random_scale):
+        """
+        Set the scale of raw features s.t. the input blob = input * scale.
+        While Python represents images in [0, 1], certain Caffe models
+        like CaffeNet and AlexNet represent images in [0, 255] so the raw_scale
+        of these models must be 255.
+
+        Parameters
+        ----------
+        in_ : which input to assign this scale factor
+        scale : scale coefficient
+        """
+        self.__check_input(in_)
+        self.random_scale[in_] = random_scale
 
     def set_mean(self, in_, mean):
         """

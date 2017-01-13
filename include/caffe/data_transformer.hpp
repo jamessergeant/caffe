@@ -7,6 +7,8 @@
 #include "caffe/common.hpp"
 #include "caffe/proto/caffe.pb.h"
 
+#include "caffe/util/SLLN.hpp"
+
 namespace caffe {
 
 /**
@@ -147,6 +149,9 @@ class DataTransformer {
   Phase phase_;
   Blob<Dtype> data_mean_;
   vector<Dtype> mean_values_;
+
+  SLLN slln;
+
 };
 
 }  // namespace caffe
