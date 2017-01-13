@@ -272,11 +272,11 @@ extern "C" void applySLLN(float3 &input, float3 &output, int block_size, int wid
 
     checkCudaErrors(cudaDeviceSynchronize());
 
-    checkCudaErrors(cudaFree(reinterpret_cast<void **>(&d_input)));
-    checkCudaErrors(cudaFree(reinterpret_cast<void **>(&d_output)));
-    checkCudaErrors(cudaFree(reinterpret_cast<void **>(&d_gray_remosaic)));
-    checkCudaErrors(cudaFree(reinterpret_cast<void **>(&d_gray_slln)));
-    checkCudaErrors(cudaFree(reinterpret_cast<void **>(&d_gray_noise)));
+    checkCudaErrors(cudaFree(d_input));
+    checkCudaErrors(cudaFree(d_output));
+    checkCudaErrors(cudaFree(d_gray_remosaic));
+    checkCudaErrors(cudaFree(d_gray_slln));
+    checkCudaErrors(cudaFree(d_gray_noise));
 
     return;
 }

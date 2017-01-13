@@ -1,0 +1,1066 @@
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from src/caffe/test/test_caffe_main.cpp:1:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/handle.hpp:10:0,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/args_fwd.hpp:10,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/args.hpp:10,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:11,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/cast.hpp: In function ‘void boost::python::detail::assert_castable(boost::type<Target>*)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/cast.hpp:73:20: warning: typedef ‘must_be_a_complete_type’ locally defined but not used [-Wunused-local-typedefs]
+       typedef char must_be_a_complete_type[sizeof(T)];
+                    ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/data_members.hpp:15:0,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/class.hpp:17,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:18,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/make_function.hpp: In function ‘boost::python::api::object boost::python::detail::make_function_aux(F, const CallPolicies&, const Sig&, const keyword_range&, NumKeywords)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/make_function.hpp:58:32: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+           >::too_many_keywords assertion;
+                                ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/class.hpp:20:0,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:18,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/init.hpp: In constructor ‘boost::python::init<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>::init(const char*, const boost::python::detail::keywords<N>&)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/init.hpp:227:34: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+             >::too_many_keywords assertion;
+                                  ^
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/init.hpp: In constructor ‘boost::python::init<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>::init(const boost::python::detail::keywords<N>&, const char*)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/init.hpp:236:34: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+             >::too_many_keywords assertion;
+                                  ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/class.hpp:24:0,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:18,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/object/pickle_support.hpp: In static member function ‘static void boost::python::detail::pickle_suite_registration::register_(Class_&, ...)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/object/pickle_support.hpp:110:31: warning: typedef ‘error_type’ locally defined but not used [-Wunused-local-typedefs]
+           Class_>::error_type error_type;
+                               ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:18:0,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/class.hpp: In static member function ‘static void boost::python::detail::error::virtual_function_default<T, Fn>::must_be_derived_class_member(const Default&)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/class.hpp:143:68: warning: typedef ‘test1’ locally defined but not used [-Wunused-local-typedefs]
+             typedef typename assertion<is_polymorphic<T> >::failed test1;
+                                                                    ^
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/class.hpp:145:81: warning: typedef ‘test2’ locally defined but not used [-Wunused-local-typedefs]
+             typedef typename assertion<is_member_function_pointer<Fn> >::failed test2;
+                                                                                 ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:22:0,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/def.hpp: In function ‘void boost::python::detail::def_from_helper(const char*, const F&, const Helper&)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/def.hpp:40:19: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+           >::type assertion;
+                   ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:41:0,
+                 from python/caffe/_caffe.cpp:7:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/make_constructor.hpp: In function ‘boost::python::api::object boost::python::detail::make_constructor_aux(F, const CallPolicies&, const Sig&, const keyword_range&, NumKeywords)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/make_constructor.hpp:177:32: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+           >::too_many_keywords assertion;
+                                ^
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/caffe.hpp:7,
+                 from python/caffe/_caffe.cpp:17:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/pkg/suse12/software/glog/0.3.4-foss-2016a/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:42:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_def.hpp:14:0,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/overloads.hpp:11,
+                 from /pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python.hpp:52,
+                 from python/caffe/_caffe.cpp:7:
+python/caffe/_caffe.cpp: In constructor ‘caffe::SolveOverloads::SolveOverloads(const char*, const boost::python::detail::keywords<nkeywords>&)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_gen.hpp:216:46: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+                 N,n_args>::too_many_keywords assertion;                                     \
+                                              ^
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_gen.hpp:276:9: note: in expansion of macro ‘BOOST_PYTHON_OVERLOAD_CONSTRUCTORS’
+         BOOST_PYTHON_OVERLOAD_CONSTRUCTORS(fstubs_name, n_args + 1, n_dflts)            \
+         ^
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_gen.hpp:375:5: note: in expansion of macro ‘BOOST_PYTHON_GEN_MEM_FUNCTION_STUB’
+     BOOST_PYTHON_GEN_MEM_FUNCTION_STUB(                                                     \
+     ^
+python/caffe/_caffe.cpp:277:1: note: in expansion of macro ‘BOOST_PYTHON_MEMBER_FUNCTION_OVERLOADS’
+ BOOST_PYTHON_MEMBER_FUNCTION_OVERLOADS(SolveOverloads, Solve, 0, 1);
+ ^
+python/caffe/_caffe.cpp: In constructor ‘caffe::SolveOverloads::SolveOverloads(const boost::python::detail::keywords<nkeywords>&, const char*)’:
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_gen.hpp:225:46: warning: typedef ‘assertion’ locally defined but not used [-Wunused-local-typedefs]
+                 N,n_args>::too_many_keywords assertion;                                     \
+                                              ^
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_gen.hpp:276:9: note: in expansion of macro ‘BOOST_PYTHON_OVERLOAD_CONSTRUCTORS’
+         BOOST_PYTHON_OVERLOAD_CONSTRUCTORS(fstubs_name, n_args + 1, n_dflts)            \
+         ^
+/pkg/suse12/software/boost/1.61.0-foss-2016a-python-2.7.11/include/boost/python/detail/defaults_gen.hpp:375:5: note: in expansion of macro ‘BOOST_PYTHON_GEN_MEM_FUNCTION_STUB’
+     BOOST_PYTHON_GEN_MEM_FUNCTION_STUB(                                                     \
+     ^
+python/caffe/_caffe.cpp:277:1: note: in expansion of macro ‘BOOST_PYTHON_MEMBER_FUNCTION_OVERLOADS’
+ BOOST_PYTHON_MEMBER_FUNCTION_OVERLOADS(SolveOverloads, Solve, 0, 1);
+ ^
