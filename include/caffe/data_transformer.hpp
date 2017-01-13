@@ -26,6 +26,7 @@ class DataTransformer {
    *    transformation.
    */
   void InitRand();
+  void InitSLLN();
 
   /**
    * @brief Applies the transformation defined in the data layer's

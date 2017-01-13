@@ -28,6 +28,7 @@ void BaseDataLayer<Dtype>::LayerSetUp(const vector<Blob<Dtype>*>& bottom,
   data_transformer_.reset(
       new DataTransformer<Dtype>(transform_param_, this->phase_));
   data_transformer_->InitRand();
+  data_transformer_->InitSLLN();
   // The subclasses should setup the size of bottom and top
   DataLayerSetUp(bottom, top);
 }
@@ -68,6 +69,7 @@ void BasePrefetchingDataLayer<Dtype>::LayerSetUp(
 #endif
   DLOG(INFO) << "Initializing prefetch";
   this->data_transformer_->InitRand();
+  this->data_transformer_->InitSLLN();
   StartInternalThread();
   DLOG(INFO) << "Prefetch initialized.";
 }

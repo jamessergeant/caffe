@@ -9,14 +9,18 @@
 #include <iostream>
 #include <string>
 
-extern "C" void applySLLN(float3 &input, float3 &output, int block_size, int width, int height, float ill, float noise);
-extern "C" void freeTextures();
+extern "C" void applySLLN(float3 &input, float3 &output, int block_size,
+                              int width, int height, float ill, float noise);
+extern "C" void initSLLN(int size);
+extern "C" void endSLLN();
 
 class SLLN {
  public:
   SLLN();
   ~SLLN();
-  bool apply(const cv::Mat& in_image, cv::Mat& out_image, float illum, float noise);
+  bool apply(const cv::Mat& in_image, cv::Mat* out_image, float illum,
+                        float noise);
+  bool initSLLN(int size);
 
  private:
   int block_size;

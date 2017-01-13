@@ -295,7 +295,7 @@ void DataTransformer<Dtype>::Transform(const cv::Mat& cv_img,
     int upper = static_cast<int>(100 * illum);
     upper = upper != 0 ? upper : 1;
     float noise = Rand(upper) / 1000.0f;
-    slln.apply(cv_img,cv_cropped_img, illum,noise);
+    slln.apply(cv_img,&cv_cropped_img, illum,noise);
     scale = 1.0f;
   }
 
@@ -560,6 +560,15 @@ void DataTransformer<Dtype>::InitRand() {
     rng_.reset(new Caffe::RNG(rng_seed));
   } else {
     rng_.reset();
+  }
+}
+
+template <typename Dtype>
+void DataTransformer<Dtype>::InitSLLN() {
+  if (param_.slln() && param_.crop_size()) {
+    slln.initSLLN(param_.crop_size());
+  } else if (param_.slln()) {
+    CHECK(param_.crop_size()) << "Crop size not set, SLLN not initialised";
   }
 }
 

@@ -15,6 +15,8 @@
 #include <typeinfo>
 #include <vector>
 
+float *d_gray_remosaic, *d_gray_slln, *d_gray_noise;
+float3 *d_input, *d_output;
 
 ////////////////////////////////////////////////////////////////////////////////
 // These are CUDA Helper functions
@@ -224,22 +226,27 @@ __global__ void demosaic(float *id, float3 *od, int width, int height) {
   od[o_i_j].z = red;
 }
 
-extern "C" void applySLLN(float3 &input, float3 &output, int block_size, int width, int height, float ill, float noise) {
+extern "C" void initSLLN(int size) {
+  const int colorBytes = size * sizeof(float3) * size;
+  const int grayBytes = size * sizeof(float) * size;
+  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_input), colorBytes));
+  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_output), colorBytes));
+  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_gray_remosaic), grayBytes));
+  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_gray_slln), grayBytes));
+  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_gray_noise), grayBytes));
+}
 
-    float *d_gray_remosaic, *d_gray_slln, *d_gray_noise;
+extern "C" void endSLLN() {
+  checkCudaErrors(cudaFree(d_input));
+  checkCudaErrors(cudaFree(d_output));
+  checkCudaErrors(cudaFree(d_gray_remosaic));
+  checkCudaErrors(cudaFree(d_gray_slln));
+  checkCudaErrors(cudaFree(d_gray_noise));
+}
 
-    float3 *d_input, *d_output;
-
+extern "C" void applySLLN(float3 &input, float3 &output, int block_size,
+                            int width, int height, float ill, float noise) {
     const int colorBytes = width * sizeof(float3) * height;
-
-    const int grayBytes = width * sizeof(float) * height;
-
-    checkCudaErrors(cudaMalloc((void **)&d_input, colorBytes));
-    checkCudaErrors(cudaMalloc((void **)&d_output, colorBytes));
-    checkCudaErrors(cudaMalloc((void **)&d_gray_remosaic, grayBytes));
-    checkCudaErrors(cudaMalloc((void **)&d_gray_slln, grayBytes));
-    checkCudaErrors(cudaMalloc((void **)&d_gray_noise, grayBytes));
-
     // Copy data from OpenCV input image to device memory
     checkCudaErrors(
         cudaMemcpy(d_input, &input, colorBytes, cudaMemcpyHostToDevice));
@@ -267,15 +274,10 @@ extern "C" void applySLLN(float3 &input, float3 &output, int block_size, int wid
 
     checkCudaErrors(cudaDeviceSynchronize());
 
-    checkCudaErrors(cudaMemcpy(&output, d_output, colorBytes, cudaMemcpyDeviceToHost));
+    checkCudaErrors(cudaMemcpy(&output, d_output, colorBytes,
+              cudaMemcpyDeviceToHost));
 
     checkCudaErrors(cudaDeviceSynchronize());
-
-    checkCudaErrors(cudaFree(d_input));
-    checkCudaErrors(cudaFree(d_output));
-    checkCudaErrors(cudaFree(d_gray_remosaic));
-    checkCudaErrors(cudaFree(d_gray_slln));
-    checkCudaErrors(cudaFree(d_gray_noise));
 
     return;
 }
