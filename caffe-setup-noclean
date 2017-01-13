@@ -20,10 +20,10 @@ export LD_LIBRARY_PATH=$CAFFE_ROOT/build/lib:$LD_LIBRARY_PATH
 cd $CAFFE_ROOT
 # make clean
 make -j8
-make test -j8
-make runtest -j8
-make pycaffe
-make matcaffe
+# make test -j8
+# make runtest -j8
+# make pycaffe
+# make matcaffe
 
 # ### TEST INSTALL
 # ./data/mnist/get_mnist.sh

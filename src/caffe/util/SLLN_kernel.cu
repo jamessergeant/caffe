@@ -169,7 +169,6 @@ __global__ void demosaic(float *id, float3 *od, int width, int height) {
   const float R_at_B = R4;
   const float B_at_R = R4;
 
-  // printf("xIndex: %i, yIndex: %i, Fij: %0.4f, R1: %0.4f, R2: %0.4f, R3: %0.4f, R4: %0.4f\n",xIndex,yIndex,Fij,R1,R2,R3,R4);
   //RGGB -> RedXY = (0, 0), GreenXY1 = (1, 0), GreenXY2 = (0, 1), BlueXY = (1, 1)
   //GRBG -> RedXY = (1, 0), GreenXY1 = (0, 0), GreenXY2 = (1, 1), BlueXY = (0, 1)
   //GBRG -> RedXY = (0, 1), GreenXY1 = (0, 0), GreenXY2 = (1, 1), BlueXY = (1, 0)
@@ -204,6 +203,7 @@ __global__ void demosaic(float *id, float3 *od, int width, int height) {
       R_at_B * is_blue_pixel +
       R_at_G_in_red * (is_green_pixel & in_red_row) +
       R_at_G_in_blue * (is_green_pixel & in_blue_row);
+
   //at B locations: B is original
   //at R locations it is the 3/2s symmetric response
   //at G in red rows it is the top-bottom symmmetric with 4s
@@ -213,7 +213,6 @@ __global__ void demosaic(float *id, float3 *od, int width, int height) {
       B_at_R * is_red_pixel +
       B_at_G_in_red * (is_green_pixel & in_red_row) +
       B_at_G_in_blue * (is_green_pixel & in_blue_row);
-
 
   //at G locations: G is original
   //at R locations: symmetric 4,2,-1
