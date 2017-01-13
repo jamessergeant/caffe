@@ -9,14 +9,12 @@ SLLN::~SLLN() {
 };
 
 bool SLLN::initSLLN(int size) {
-  LOG(INFO) << "Initialising SLLN.";
   cudaDeviceProp prop;
   int count;
   cudaError err = cudaGetDeviceCount(&count);
   err = cudaGetDeviceProperties(&prop, 0);
   block_size = floor(sqrt(prop.maxThreadsPerBlock));
   initSLLN(size);
-  LOG(INFO) << "SLLN init complete.";
   return true;
 }
 
