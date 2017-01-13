@@ -567,7 +567,7 @@ template <typename Dtype>
 void DataTransformer<Dtype>::InitSLLN() {
   if (param_.slln() && param_.crop_size()) {
     LOG(INFO) << "Initialising SLLN.";
-    slln.initSLLN(param_.crop_size());
+    slln.init(param_.crop_size());
     LOG(INFO) << "SLLN init complete.";
   } else if (param_.slln()) {
     CHECK(param_.crop_size()) << "Crop size not set, SLLN not initialised";

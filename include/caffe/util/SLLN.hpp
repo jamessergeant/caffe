@@ -20,7 +20,7 @@ class SLLN {
   ~SLLN();
   bool apply(const cv::Mat& in_image, cv::Mat* out_image, float illum,
                         float noise);
-  bool initSLLN(int size);
+  bool init(int size);
 
  private:
   int block_size;

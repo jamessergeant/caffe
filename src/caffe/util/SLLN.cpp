@@ -8,7 +8,7 @@ SLLN::~SLLN() {
   endSLLN();
 };
 
-bool SLLN::initSLLN(int size) {
+bool SLLN::init(int size) {
   cudaDeviceProp prop;
   int count;
   cudaError err = cudaGetDeviceCount(&count);
