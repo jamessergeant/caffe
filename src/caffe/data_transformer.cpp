@@ -288,7 +288,7 @@ void DataTransformer<Dtype>::Transform(const cv::Mat& cv_img,
 
   int h_off = 0;
   int w_off = 0;
-  cv::Mat cv_cropped_img = cv_img;
+  cv::Mat cv_cropped_img = cv_img.clone();
 
   if (param_.slln()) {
     float illum = Rand(2000) / 1000.0f;
@@ -565,12 +565,13 @@ void DataTransformer<Dtype>::InitRand() {
 
 template <typename Dtype>
 void DataTransformer<Dtype>::InitSLLN() {
-  if (param_.slln() && param_.crop_size()) {
+  if (param_.slln() && param_.orig_width() && param_.orig_height()) {
     LOG(INFO) << "Initialising SLLN.";
-    slln.init(param_.crop_size());
+    slln.init(param_.orig_width(),param_.orig_height());
     LOG(INFO) << "SLLN init complete.";
   } else if (param_.slln()) {
-    CHECK(param_.crop_size()) << "Crop size not set, SLLN not initialised";
+    CHECK(param_.orig_width()) << "orig_width not set, SLLN not initialised";
+    CHECK(param_.orig_height()) << "orig_height not set, SLLN not initialised";
   }
 }
 

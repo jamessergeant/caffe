@@ -15,8 +15,8 @@
 #include <typeinfo>
 #include <vector>
 
-float *d_gray;
-float3 *d_color;
+__device__ float *d_gray, *d_gray_noise;
+__device__ float3 *d_color;
 
 ////////////////////////////////////////////////////////////////////////////////
 // These are CUDA Helper functions
@@ -226,22 +226,26 @@ __global__ void demosaic(float *id, float3 *od, int width, int height) {
   od[o_i_j].z = red;
 }
 
-extern "C" void initSLLN(int size) {
-  checkCudaErrors(cudaMalloc((void **)&d_color, size * sizeof(float3) * size));
-  checkCudaErrors(cudaMalloc((void **)&d_gray, size * sizeof(float) * size));
+extern "C" void initSLLN(int width, int height) {
+  checkCudaErrors(cudaMalloc((void **)&d_color, width * sizeof(float3) * height));
+  checkCudaErrors(cudaMalloc((void **)&d_gray, width * sizeof(float) * height));
+  checkCudaErrors(cudaMalloc((void **)&d_gray_noise, width * sizeof(float) * height));
+  checkCudaErrors(cudaDeviceSynchronize());
 }
 
 extern "C" void endSLLN() {
   checkCudaErrors(cudaFree(d_color));
   checkCudaErrors(cudaFree(d_gray));
+  checkCudaErrors(cudaFree(d_gray_noise));
+  checkCudaErrors(cudaDeviceSynchronize());
 }
 
-extern "C" void applySLLN(float3 &input, float3 &output, int block_size,
+extern "C" void applySLLN(const float3 &input, float3 &output, int block_size,
                             int width, int height, float ill, float noise) {
+
     const int colorBytes = width * sizeof(float3) * height;
-    // Copy data from OpenCV input image to device memory
-    const float3* input_ptr = &input;
-    checkCudaErrors(cudaMemcpy(d_color, &input_ptr, colorBytes,
+
+    checkCudaErrors(cudaMemcpy(d_color, &input, colorBytes,
                                       cudaMemcpyHostToDevice));
 
     // Specify a reasonable block size
@@ -256,7 +260,7 @@ extern "C" void applySLLN(float3 &input, float3 &output, int block_size,
     // Synchronize to check for any kernel launch errors
     checkCudaErrors(cudaDeviceSynchronize());
 
-    apply_slln<<<grid, block>>>(d_gray, d_gray, d_gray,
+    apply_slln<<<grid, block>>>(d_gray, d_gray, d_gray_noise,
                                 width, height, ill, noise);
 
     checkCudaErrors(cudaDeviceSynchronize());
@@ -270,6 +274,8 @@ extern "C" void applySLLN(float3 &input, float3 &output, int block_size,
               cudaMemcpyDeviceToHost));
 
     checkCudaErrors(cudaDeviceSynchronize());
+      // checkCudaErrors(cudaFree(d_color));
+      // checkCudaErrors(cudaFree(d_gray));
 
     return;
 }
