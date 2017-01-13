@@ -18,14 +18,14 @@ bool SLLN::init(int size) {
   return true;
 }
 
-bool SLLN::apply(const cv::Mat& in_image, cv::Mat* out_image,
+bool SLLN::apply(const cv::Mat& in_image, cv::Mat out_image,
                                 float illum, float noise) {
   if ( in_image.empty() ) {return false;}
-  in_image.convertTo(*out_image, CV_32F, 1/255.0);
+  in_image.convertTo(out_image, CV_32F, 1/255.0);
   float3 *temp_out;
-  temp_out = reinterpret_cast<float3*>(out_image->data);
+  temp_out = reinterpret_cast<float3*>(out_image.data);
   applySLLN(*temp_out, *temp_out, block_size, in_image.cols, in_image.rows,
             illum, noise);
-  out_image->convertTo(*out_image, CV_8UC3, 255.0);
-return true;
+  out_image.convertTo(out_image, CV_8UC3, 255.0);
+  return true;
 }

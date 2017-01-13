@@ -18,7 +18,7 @@ class SLLN {
  public:
   SLLN();
   ~SLLN();
-  bool apply(const cv::Mat& in_image, cv::Mat* out_image, float illum,
+  bool apply(const cv::Mat& in_image, cv::Mat out_image, float illum,
                         float noise);
   bool init(int size);
 

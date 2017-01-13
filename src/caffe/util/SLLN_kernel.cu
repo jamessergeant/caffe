@@ -15,8 +15,8 @@
 #include <typeinfo>
 #include <vector>
 
-float *d_gray_remosaic, *d_gray_slln, *d_gray_noise;
-float3 *d_input, *d_output;
+float *d_gray;
+float3 *d_color;
 
 ////////////////////////////////////////////////////////////////////////////////
 // These are CUDA Helper functions
@@ -227,54 +227,46 @@ __global__ void demosaic(float *id, float3 *od, int width, int height) {
 }
 
 extern "C" void initSLLN(int size) {
-  const int colorBytes = size * sizeof(float3) * size;
-  const int grayBytes = size * sizeof(float) * size;
-  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_input), colorBytes));
-  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_output), colorBytes));
-  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_gray_remosaic), grayBytes));
-  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_gray_slln), grayBytes));
-  checkCudaErrors(cudaMalloc(reinterpret_cast<void **>(&d_gray_noise), grayBytes));
+  checkCudaErrors(cudaMalloc((void **)&d_color, size * sizeof(float3) * size));
+  checkCudaErrors(cudaMalloc((void **)&d_gray, size * sizeof(float) * size));
 }
 
 extern "C" void endSLLN() {
-  checkCudaErrors(cudaFree(d_input));
-  checkCudaErrors(cudaFree(d_output));
-  checkCudaErrors(cudaFree(d_gray_remosaic));
-  checkCudaErrors(cudaFree(d_gray_slln));
-  checkCudaErrors(cudaFree(d_gray_noise));
+  checkCudaErrors(cudaFree(d_color));
+  checkCudaErrors(cudaFree(d_gray));
 }
 
 extern "C" void applySLLN(float3 &input, float3 &output, int block_size,
                             int width, int height, float ill, float noise) {
     const int colorBytes = width * sizeof(float3) * height;
     // Copy data from OpenCV input image to device memory
-    checkCudaErrors(
-        cudaMemcpy(d_input, &input, colorBytes, cudaMemcpyHostToDevice));
+    const float3* input_ptr = &input;
+    checkCudaErrors(cudaMemcpy(d_color, &input_ptr, colorBytes,
+                                      cudaMemcpyHostToDevice));
 
     // Specify a reasonable block size
     const dim3 block(block_size, block_size);
 
-
     const dim3 grid((width + block.x - 1) / block.x,
                     (height + block.y - 1) / block.y);
 
-    remosaic<<<grid, block>>>(d_input, d_gray_remosaic, width,
+    remosaic<<<grid, block>>>(d_color, d_gray, width,
                                         height);
 
     // Synchronize to check for any kernel launch errors
     checkCudaErrors(cudaDeviceSynchronize());
 
-    apply_slln<<<grid, block>>>(d_gray_remosaic, d_gray_slln, d_gray_noise,
+    apply_slln<<<grid, block>>>(d_gray, d_gray, d_gray,
                                 width, height, ill, noise);
 
     checkCudaErrors(cudaDeviceSynchronize());
 
-    demosaic<<<grid, block>>>(d_gray_slln, d_output, width,
+    demosaic<<<grid, block>>>(d_gray, d_color, width,
                                 height);
 
     checkCudaErrors(cudaDeviceSynchronize());
 
-    checkCudaErrors(cudaMemcpy(&output, d_output, colorBytes,
+    checkCudaErrors(cudaMemcpy(&output, d_color, colorBytes,
               cudaMemcpyDeviceToHost));
 
     checkCudaErrors(cudaDeviceSynchronize());
